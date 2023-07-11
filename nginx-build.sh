@@ -895,6 +895,7 @@ _configure_nginx() {
                     --with-http_v2_module \
                     --with-http_ssl_module \
                     --with-pcre-jit \
+                    --with-http_image_filter_module \
                     $NGINX_INCLUDED_MODULES \
                     $NGINX_THIRD_MODULES \
                     $NGX_RTMP \
